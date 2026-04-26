@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('bg.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+
+.name-badge {
+    background-color: #c58d92;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.name-badge h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+
+.Profile-circle img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid white;
+    display: block;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.content-left {
+    flex: 1;
+}
+
+.content-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.action-zone {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#btnSapa {
+    padding: 10px 20px;
+    background-color: #c58d92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pesanSapaan {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #c58d92;
+    display: block; 
+    text-align: center;
+}
+
+.quote {
+    margin-top: 20px; 
+    font-style: italic; 
+    color: #555;
+}
