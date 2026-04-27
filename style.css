@@ -101,3 +101,19 @@ main {
     font-style: italic; 
     color: #555;
 }
+
+.fav-courses {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.fav-courses h3 {
+    font-size: 18px;
+    color: #c58d92;
+    margin-bottom: 10px;
+}
+
+.fav-courses ul {
+    margin-left: 20px;
+    line-height: 1.6;
+}
